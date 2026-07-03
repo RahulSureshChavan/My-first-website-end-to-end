@@ -1,5 +1,5 @@
 /* ====== CHANGE THIS PASSWORD ====== */
-const EDITOR_PASSWORD = ChampionAnalyst;
+const EDITOR_PASSWORD = "changeme123";
 /* =================================== */
 
 let DATA = null;

@@ -37,15 +37,15 @@
     });
 
     // photo
-    const photoWrap = document.getElementById("hero-photo-wrap");
+    const heroGrid = document.getElementById("hero-grid");
     const photoImg = document.getElementById("hero-photo");
     if (d.hero.photo) {
-      photoImg.onerror = () => photoWrap.classList.add("empty");
-      photoImg.onload = () => photoWrap.classList.remove("empty");
+      photoImg.onerror = () => heroGrid.classList.add("no-photo");
+      photoImg.onload = () => heroGrid.classList.remove("no-photo");
       photoImg.src = d.hero.photo;
       photoImg.alt = d.hero.name;
     } else {
-      photoWrap.classList.add("empty");
+      heroGrid.classList.add("no-photo");
     }
 
     // pipeline labels

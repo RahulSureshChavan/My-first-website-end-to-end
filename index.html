@@ -32,26 +32,25 @@
 </header>
 
 <section class="hero">
-  <div class="wrap">
-    <div class="hero-inner">
-      <div class="hero-copy">
-        <div class="hero-eyebrow eyebrow" data-i18n="hero.eyebrow">SELECT * FROM analyst WHERE impact = true;</div>
-        <h1>
-          <span id="hero-name">Rahul</span>
-          <span class="role" id="hero-role">Senior Data Analyst</span>
-        </h1>
-        <p class="hero-subtitle" data-i18n="hero.subtitle"></p>
-        <div class="hero-cta">
-          <a href="#projects" class="btn btn-primary" data-i18n="hero.cta_primary"></a>
-          <a href="#contact" class="btn btn-secondary" data-i18n="hero.cta_secondary"></a>
-        </div>
+  <div class="hero-grid" id="hero-grid">
+    <div class="hero-copy-col">
+      <div class="hero-eyebrow eyebrow" data-i18n="hero.eyebrow">SELECT * FROM analyst WHERE impact = true;</div>
+      <h1>
+        <span id="hero-name">Rahul</span>
+        <span class="role" id="hero-role">Senior Data Analyst</span>
+      </h1>
+      <p class="hero-subtitle" data-i18n="hero.subtitle"></p>
+      <div class="hero-cta">
+        <a href="#projects" class="btn btn-primary" data-i18n="hero.cta_primary"></a>
+        <a href="#contact" class="btn btn-secondary" data-i18n="hero.cta_secondary"></a>
       </div>
-      <div class="hero-photo-wrap" id="hero-photo-wrap">
-        <img id="hero-photo" src="" alt="" class="hero-photo" />
-      </div>
+      <div class="hero-stats" id="hero-stats"></div>
     </div>
-    <div class="hero-stats" id="hero-stats"></div>
-
+    <div class="hero-photo-panel" id="hero-photo-wrap">
+      <img id="hero-photo" src="" alt="" />
+    </div>
+  </div>
+  <div class="wrap">
     <div class="pipeline-strip reveal" aria-hidden="true">
       <div class="pipe-node">
         <div class="pipe-icon">
